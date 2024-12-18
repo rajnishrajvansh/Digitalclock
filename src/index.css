@@ -1,0 +1,27 @@
+body{
+  background-image: url(./assets/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.clock-container{
+  backdrop-filter: blur(2px);
+  padding: 10px 5px;
+}
+.clock{
+  color:white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.712);
+}
+.box-container{
+  border:2px solid black;
+  padding: 25px;
+}
